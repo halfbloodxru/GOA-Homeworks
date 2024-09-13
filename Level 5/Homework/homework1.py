@@ -1,0 +1,8 @@
+x = int(input('Enter X: '))
+y = int(input('Enter Y: '))
+a = int(input('Enter A: '))
+b = int(input('Enter B: '))
+print(x + y - b)
+print(a * x // b)
+print((a * y) - (b * x))
+print(min(a, b, x, y) * (a - y))
